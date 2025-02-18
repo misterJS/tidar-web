@@ -12,7 +12,9 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <Typography variant="h1">TIDAR</Typography>
+        <Typography variant="h1" className="text-primary">
+          TIDAR
+        </Typography>
         <Typography variant="h2">Tunas Indonesia Raya</Typography>
         <Typography variant="caption">Kabupaten Bekasi</Typography>
       </motion.div>
